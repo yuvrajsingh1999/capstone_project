@@ -8,13 +8,13 @@ phases:
             - echo "Install In Progress"
     pre_build:
         commands: 
-            - echo "Status Before Build: Success"
+            - echo "Status Before Build -> Success"
     build:
         commands:
             - echo "we will run npm tests"
     post_build:
         commands:
-            - echo "Status After Build: Success"
+            - echo "Status After Build -> Success"
 artifacts:
   files:
     - '**/*'
