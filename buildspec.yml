@@ -1,0 +1,20 @@
+version: 0.2
+
+phases: 
+    install:
+        runtime-versions:
+            nodejs: latest
+        commands:
+            - echo "Install In Progress"
+    pre_build:
+        commands: 
+            - echo "Status Before Build: Success"
+    build:
+        commands:
+            - echo "we will run npm tests"
+    post_build:
+        commands:
+            - echo "Status After Build: Success"
+artifacts:
+  files:
+    - '**/*'
