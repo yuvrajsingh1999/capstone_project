@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /index.html
-    destination: /var/www/html/capstone_project/
+    destination: /var/www/html/capstone_project
 hooks:
   ApplicationStop:
     - location: scripts/stop_server
